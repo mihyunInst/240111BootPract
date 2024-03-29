@@ -1,0 +1,16 @@
+package edu.kh.project.member.controller;
+
+
+
+import edu.kh.project.member.model.service.MemberService;
+import lombok.extern.slf4j.Slf4j;
+
+@SessionAttributes({"loginMember"})
+@Controller
+@RequestMapping("member") 
+@Slf4j
+public class MemberController {
+	
+	@Autowired // 의존성 주입(DI)
+	private MemberService service;
+}

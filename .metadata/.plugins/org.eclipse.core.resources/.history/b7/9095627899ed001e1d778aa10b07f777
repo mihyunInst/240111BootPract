@@ -1,0 +1,9 @@
+package edu.kh.project.member.controller;
+
+@SessionAttributes({"loginMember"})
+@Controller
+@RequestMapping("member") 
+@Slf4j
+public class MemberController {
+
+}

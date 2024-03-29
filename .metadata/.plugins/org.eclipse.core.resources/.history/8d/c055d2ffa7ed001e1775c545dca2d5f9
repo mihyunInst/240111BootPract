@@ -1,0 +1,19 @@
+# 한 줄 주석
+
+#해당 파일에 설정 작성 시 프로젝트 전반적으로 설정이 적용됨
+
+#애플리케이션(프로그램) 이름
+spring.application.name=demoProject1
+
+
+# 포트 번호를 80으로 변경
+server.port=80
+
+#Spring DevTools(자동 리로드, 서버 재시작) 설정
+spring.devtools.livereload.enabled=true
+spring.devtools.restart.enabled=true
+spring.thymeleaf.cache=false
+
+
+# 로그 레벨 지정
+logging.level.edu.kh.demo=debug
